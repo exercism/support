@@ -11,7 +11,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           close-message: |
-            _This repository is restricted to Exercism's core team. Please open issues in github.com/exercism/exercism._
+            _This repository is restricted to Exercism's core team. Please open issues in [exercism/exercism/issues](https://github.com/exercism/exercism/issues)._
           lock-message: |
             _This issue outlines an Exercism project. As with all issues in the `exercism/wip` repo, this is an internal issue restricted to the core team. If you have something you need to discuss on this please open an issue at https://github.com/exercism/exercism._
           lock-on-permission: write
